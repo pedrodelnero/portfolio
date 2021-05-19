@@ -24,11 +24,32 @@ export const aboutData = {
     'I have focused this year learning Javascript, its frameworks, and libraries (more specifially ReactJS and NodeJS). While working on projects I have been able to identify where the issues are as well as opportunites to make the code more efficient.',
   paragraphThree:
     'I know that my background and aptitude will help me overcome any task or challenge given to me.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '../../static/Resume1.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Chikitown.png',
+    title: 'Chikitown.com',
+    info:
+      "Created a full site for a children's playground business that needed a good online presence during the pandemic.",
+    info2: 'Used React and NextJS with CSS modules (comes with NextJS).',
+    url: 'https://www.chikitown.com/',
+    repo: 'https://github.com/pedrodelnero/chikitown',
+  },
+  {
+    id: nanoid(),
+    img: 'Twitterclone.png',
+    title: 'Twitter Clone',
+    info:
+      'Built a Twitter clone app where a user can create an account, make a post, "follow" another user and like a post',
+    info2:
+      'Used ReactJS with ChakraUI for the front-end and NodeJS for back-end with MySQL (with Sequelize). And used GraphQL to communicate between front-end and back-end, more specifically Apollo Server and Client.',
+    url: 'https://github.com/pedrodelnero/twitter_clone_frontend',
+    repo: 'https://github.com/pedrodelnero/twitter_clone_backend',
+  },
   {
     id: nanoid(),
     img: 'CMSscreenshot.png',
@@ -36,8 +57,8 @@ export const projectsData = [
     info:
       'I wanted to create a WordPress clone app where one can find a "one stop shop" to build their own websites. While it still is a work in progress, I am very happy with how it turned out for having no professional web developing experience.',
     info2:
-      'I used ReactJS for front-end "admin", NextJS for front-end "finished site," NodeJS for back-end, MySQL (with Sequelize) for the databse, and MaterialUI.',
-    url: '',
+      'I used ReactJS for front-end "admin", NextJS for front-end "finished site," NodeJS for back-end, MySQL (with Sequelize) for the database, and MaterialUI.',
+    url: 'https://delnero-cms.netlify.app',
     repo: 'https://github.com/pedrodelnero/cms',
   },
   {
@@ -45,9 +66,9 @@ export const projectsData = [
     img: 'review_site.png',
     title: 'Product Review App',
     info:
-      'For my first solo project I pictured a combination of Yelp and Reddit where one can post a review about any product and others can comment on it.',
+      'For my first solo project, I pictured a combination of Yelp and Reddit where one can post a review about any product and others can comment on it.',
     info2:
-      'I used ReactJS (with Redux) for the front-end, NodeJS for the back-end, MongoDB (with Mongoose) for the databse, and MaterialUI.',
+      'I used ReactJS (with Redux) for the front-end, NodeJS for the back-end, MongoDB (with Mongoose) for the database, and MaterialUI.',
     url: 'https://delnero-review-site.netlify.app/',
     repo: 'https://github.com/pedrodelnero/review-site',
   },
