@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: `Hi, I'm`,
   name: 'Pedro Del Nero Pagán',
-  subtitle: 'Currently looking for entry-level backend developer position',
+  subtitle: 'Currently looking for React or Node.js developer position',
   cta: '',
 };
 
@@ -19,16 +19,28 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I graduated with a Mechanical Engineering Technology degree, but most of my professional life has been in sales. I co-owned a succesful retail store-front where I learned leadership, customer service, sales, management, and how to be a team player. These skills have helped me throughout my career.',
+    'As a developer I have built full stack and fully responsive applications with React, NextJS, Node.js and GraphQL. I have worked with SQL and NoSQL databases such as MySQL and MongoDB with ORMs/ORMs like Sequelize (for MySQL) and Mongoose (for MongoDB).',
   paragraphTwo:
-    'I have focused this year learning Javascript, its frameworks, and libraries (more specifially ReactJS and NodeJS). While working on projects I have been able to identify where the issues are as well as opportunites to make the code more efficient.',
+    'I graduated with a Mechanical Engineering Technology degree, but most of my professional life has been in sales. I co-owned a succesful retail store-front where I learned leadership, customer service, sales, management, and how to be a team player. These skills have helped me throughout my career.',
+
   paragraphThree:
     'I know that my background and aptitude will help me overcome any task or challenge given to me.',
-  resume: '../../static/Resume1.pdf', // if no resume, the button will not show up
+  resume: '../../static/updated_dev_resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'review_site.png',
+    title: 'Product Review App',
+    info:
+      'For my first solo project, I pictured a combination of Yelp and Reddit where one can post a review about any product and others can comment on it.',
+    info2:
+      'I used ReactJS (with Redux) for the front-end, NodeJS for the back-end, MongoDB (with Mongoose) for the database, and MaterialUI.',
+    url: 'https://delnero-review-site.netlify.app/',
+    repo: 'https://github.com/pedrodelnero/review-site',
+  },
   {
     id: nanoid(),
     img: 'Chikitown.png',
@@ -60,17 +72,6 @@ export const projectsData = [
       'I used ReactJS for front-end "admin", NextJS for front-end "finished site," NodeJS for back-end, MySQL (with Sequelize) for the database, and MaterialUI.',
     url: 'https://delnero-cms.netlify.app',
     repo: 'https://github.com/pedrodelnero/cms',
-  },
-  {
-    id: nanoid(),
-    img: 'review_site.png',
-    title: 'Product Review App',
-    info:
-      'For my first solo project, I pictured a combination of Yelp and Reddit where one can post a review about any product and others can comment on it.',
-    info2:
-      'I used ReactJS (with Redux) for the front-end, NodeJS for the back-end, MongoDB (with Mongoose) for the database, and MaterialUI.',
-    url: 'https://delnero-review-site.netlify.app/',
-    repo: 'https://github.com/pedrodelnero/review-site',
   },
 ];
 

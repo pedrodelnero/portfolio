@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href="https://smallpdf.com/shared#st=da687894-1ac9-43a5-88fa-4dc7e8d9ca41&fn=Resume1.pdf&ct=1607116653610&tl=share-document&rf=link"
+                      href="updated_dev_resume.pdf"
                     >
                       Resume
                     </a>
