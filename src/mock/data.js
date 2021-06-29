@@ -11,7 +11,8 @@ export const headData = {
 export const heroData = {
   title: `Hi, I'm`,
   name: 'Pedro Del Nero Pagán',
-  subtitle: 'Currently looking for React or Node.js developer position',
+  subtitle:
+    'Full-stack software engineer. Currently looking for React or Node.js developer position',
   cta: '',
 };
 
@@ -19,12 +20,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'As a developer I have built full stack and fully responsive applications with React, NextJS, Node.js and GraphQL. I have worked with SQL and NoSQL databases such as MySQL and MongoDB with ODMs/ORMs like Sequelize (for MySQL) and Mongoose (for MongoDB).',
-  paragraphTwo:
-    'I graduated with a Mechanical Engineering Technology degree, but most of my professional life has been in sales. I co-owned a succesful retail store-front where I learned leadership, customer service, sales, management, and how to be a team player. These skills have helped me throughout my career.',
+    'I am a professional full-stack engineer. I have worked with technologies like React, Redux, NextJS, Node, GraphQL, and databases like MySQL and MongoDB. I have 3 years of experience with platforms like BigCommerce and Shopify, 2 years with React and Node and 1 year with GraphQL. Currently, I am learning and building a microservices application with Node.',
+  // paragraphTwo:
+  //   'I graduated with a Mechanical Engineering Technology degree, but most of my professional life has been in sales. I co-owned a succesful retail store-front where I learned leadership, customer service, sales, management, and how to be a team player. These skills have helped me throughout my career.',
 
-  paragraphThree:
-    'I know that my background and aptitude will help me overcome any task or challenge given to me.',
+  // paragraphThree:
+  //   'I know that my background and aptitude will help me overcome any task or challenge given to me.',
   resume: '../../static/updated_dev_resume.pdf', // if no resume, the button will not show up
 };
 
