@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'As a developer I have built full stack and fully responsive applications with React, NextJS, Node.js and GraphQL. I have worked with SQL and NoSQL databases such as MySQL and MongoDB with ORMs/ORMs like Sequelize (for MySQL) and Mongoose (for MongoDB).',
+    'As a developer I have built full stack and fully responsive applications with React, NextJS, Node.js and GraphQL. I have worked with SQL and NoSQL databases such as MySQL and MongoDB with ODMs/ORMs like Sequelize (for MySQL) and Mongoose (for MongoDB).',
   paragraphTwo:
     'I graduated with a Mechanical Engineering Technology degree, but most of my professional life has been in sales. I co-owned a succesful retail store-front where I learned leadership, customer service, sales, management, and how to be a team player. These skills have helped me throughout my career.',
 
